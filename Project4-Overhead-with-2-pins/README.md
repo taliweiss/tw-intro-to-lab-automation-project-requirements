@@ -6,9 +6,11 @@
 ## write a program that does the following:
 - Blink an LED on pin 13
 - Blink an LED on pin 12, in this case there isn't actually a LED connected to this pin, but we can still use it to measure the overhead of the digitalWrite() function, using the logic analyzer.
+- connect the pins to two inputs in the logic analyzer and don't forget to add the ground connection from the Arduino to the logic analyzer.
 
 ## Excercise 1
 - measure the delay between the two digitalWrite() functions using the logic analyzer.
+Paste screenshots below:
 
 enter the delay in usec here:  __________
 
@@ -17,6 +19,7 @@ enter the delay in usec here:  __________
 
 ## Excercise 2
 - measure the delay the originated from the calculation between the two digitalWrite() functions using the logic analyzer.
+Paste screenshots below:
 
 enter the delay in usec here:  __________
 
