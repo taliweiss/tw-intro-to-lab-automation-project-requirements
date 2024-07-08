@@ -35,3 +35,6 @@
  - Commit the new README with your screenshots
  - push to your repo.
 
+## Exercise
+Paste screenshots below.
+
