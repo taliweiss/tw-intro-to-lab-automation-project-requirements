@@ -25,7 +25,7 @@
  - add and commit the file
  - push the file to your repo.
 
-## Results
+## Exercise
 - pressure value: 
 - led blinks when:
 - led is constant when:
