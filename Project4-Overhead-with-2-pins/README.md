@@ -1,7 +1,6 @@
 # Project 4: measuring overhead of digitalWrite() with 2 pins
 
-1. understand the digitalWrite() function takes time to execute and when adding a second one digitalWrite() function there is a delay between the two.
-2. Understand that executing computer code takes time by measuring the overhead of a simple calculation in between the blinking
+1. Comparing different types of time overhead
 
 ## write a program that does the following:
 - Blink an LED on pin 13
