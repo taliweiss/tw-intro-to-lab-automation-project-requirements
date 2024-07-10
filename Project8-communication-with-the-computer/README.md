@@ -36,3 +36,7 @@
 8. The script should include comments explaining the functionality of each part of the code.
 9. The script should be written in a clean, organized, and efficient manner following good programming practices.
 
+## Results ##
+Paste a screenshot of the GUI here:
+
+Paste a screenshot of the logic analyzer here that presents the time the LED is ON when pressing the button.
