@@ -5,7 +5,7 @@
 2. Learn about the accelerometer sensor and how to use it in a project.
 3. Learn about the OLED display and Buzzer effector and how to use them in a project.
 
-## setup
+## Setup
 1. Use the setup from Project10-Fan_Speed and add the following components:
     - Accelerometer sensor
     - OLED display
