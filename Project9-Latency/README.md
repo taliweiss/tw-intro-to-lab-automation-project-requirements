@@ -5,7 +5,7 @@
 2. Measure the latency (reaction time) of yourself using the Arduino board and log the data into a file
 3. Graphing and logging data in realtime.
 
-## Instructions
+## Requirements
 1. Develop an Arduino sketch that uses a button to trigger the turning on of an LED for a random amount of time between 500 and 3000 milliseconds. The user should hold the button pressed until the LED turns off. The program than finds the time it took the user to react to the LED turning off in ms and send this value to the computer
 
 2. Develop a Python script that communicates with the Arduino board via a serial port. The script should display a histogram of the reaction times of the user to the LED turning off. The histogram should be updated in real-time as new reaction times are received from the Arduino board and the results should be saved into a csv file. Use the pandas library to save the data into a csv file.
