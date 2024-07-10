@@ -19,7 +19,7 @@
 
 ## System setup
  - https://wiki.seeedstudio.com/Grove-Beginner-Kit-for-Arduino-education-pack/#project-2-oscillating-fan. Place fan above light sensor (images)
-
+![Alt text](image.png)
  ## Results
     1. Paste here the screenshot of the GUI that shows the speed of the fan in real-time.
     2. Add the corresponding csv files of the fan speed to the project folder.
