@@ -36,4 +36,3 @@
 8. The script should include comments explaining the functionality of each part of the code.
 9. The script should be written in a clean, organized, and efficient manner following good programming practices.
 
-## mini project 3: pyfirmata and serial communication latency
