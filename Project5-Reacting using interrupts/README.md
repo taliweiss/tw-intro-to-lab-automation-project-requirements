@@ -24,6 +24,3 @@ answer here: __________
 ## Exercises
  - commit and upload your code in this project folder.
 
-
-
-
