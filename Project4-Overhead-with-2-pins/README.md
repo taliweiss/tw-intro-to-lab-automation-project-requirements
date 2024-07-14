@@ -3,8 +3,9 @@
 1. Comparing different types of time overhead
 
 ## write a program that does the following:
-- Blink an LED on pin 13
-- Blink an LED on pin 12, in this case there isn't actually a LED connected to this pin, but we can still use it to measure the overhead of the digitalWrite() function, using the logic analyzer.
+- Blink an LED on pin 13 with delay 1 ms
+- Blink an LED on pin 12 with delay 1 ms, in this case there isn't actually a LED connected to this pin, but we can still use it to measure the overhead of the digitalWrite() function, using the logic analyzer.
+- both leds should be HIGH, then delay, then both leds LOW, then delay
 - connect the pins to two inputs in the logic analyzer and don't forget to add the ground connection from the Arduino to the logic analyzer.
 
 ## Exercise 1
