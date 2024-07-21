@@ -11,7 +11,7 @@
  - test that this works.
 
 ## Simulate additional long process
-- Add a delay(1000) to your loop.
+- Add a delay(1000) to your loop. The purpose of this delay is to simulate an additional long process in your system, such as data acquisition, a long measurement, etc.
 - add Serial statements before and after the delay
 - test if lighting led still works. Why or why not?
 answer here: __________

@@ -19,7 +19,7 @@
  - when does the buzzer play?
 
 ## Git
- - Clone or fork this repo
+ - fork this repo
  - Find this readme file
  - edit the results below
  - add and commit the file

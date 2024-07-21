@@ -30,6 +30,7 @@ The purpose of this project is to dim and increase the led light using the rotar
 - connect to servo using D7 breakout (ground on the left on the side of the led). connect plus to servo
 - turn rotary to turn the servo
 - How does the range of the servo motor compare to the range of the rotary? Use the scope.
+- is the range of our server the same as the range of the package? change the range of values to the servo accordingly.
 
 ## Exercises
 

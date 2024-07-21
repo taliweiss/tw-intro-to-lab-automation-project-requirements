@@ -30,7 +30,10 @@
  - Remove the delay statements and upload the code
  - Measure pulse width. What is the minimum time that the signal is HIGH and LOW? this is the overhead.
  - Take screenshots and add them to the README below.
- - delay() is limited to 1 ms. Find a function that delays 1 microsecond. 
+ 
+
+## even shorter blink
+- delay() is limited to 1 ms. Find a function that delays 1 microsecond. 
  - Try different delays and measure the overhead.
  - Take screenshots and add them to the README below.
 
