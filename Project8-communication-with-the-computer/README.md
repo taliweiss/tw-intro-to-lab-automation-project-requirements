@@ -37,7 +37,7 @@ This number is the time in milliseconds that the LED on the device should light 
 8. The script should include comments explaining the functionality of each part of the code.
 9. The script should be written in a clean, organized, and efficient manner following good programming practices.
 
-## Results ##
+## Exercises
 Paste a screenshot of the GUI here:
 
 Paste a screenshot of the logic analyzer here that presents the time the LED is ON when pressing the button.

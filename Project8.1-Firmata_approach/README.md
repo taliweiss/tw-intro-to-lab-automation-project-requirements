@@ -21,7 +21,7 @@
 9. Write the script in a clean, organized, and efficient manner following good programming practices.
 
 
-## Results ##
+## Exercises
 Paste a screenshot of the GUI here:
 
 Paste a screenshot of the logic analyzer here that presents the time the LED is ON when pressing the button.

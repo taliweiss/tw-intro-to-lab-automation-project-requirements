@@ -21,7 +21,7 @@
 ## Git
  - fork this repo
  - Find this readme file
- - edit the results below
+ - update the exercises below
  - add and commit the file
  - push the file to your repo.
 

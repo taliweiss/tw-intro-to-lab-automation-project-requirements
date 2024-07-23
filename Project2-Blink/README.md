@@ -20,5 +20,5 @@
 ## Git
  - no need to commit anything in this project
 
-## Results
+## Exercises
 - LED blinks when: the code is running
