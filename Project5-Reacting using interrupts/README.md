@@ -10,6 +10,9 @@
  - read value from button pin. If button is pressed (how can you tell?) turn grove led on. If button is not pressed, turn it off
  - test that this works.
 
+## Debug statements
+- use the Serial library to add debug statements to your code. View using Serial Monitor in Arduino IDE
+
 ## Simulate additional long process
 - Add a delay(1000) to your loop. The purpose of this delay is to simulate an additional long process in your system, such as data acquisition, a long measurement, etc.
 - add Serial statements before and after the delay
