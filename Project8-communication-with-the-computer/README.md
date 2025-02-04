@@ -27,7 +27,7 @@ This number is the time in milliseconds that the LED on the device should light 
 2. The script should have a GUI (Graphical User Interface) using PySimpleGUI library. The GUI should have a response area to display messages.
 3. The script should be able to send a number over the serial port to the device. This number will be the time in milliseconds that the LED on the device should light up when a button is pressed. (add newline if necessary)
     - For example, if the user enters '5000' in the GUI, the LED on the device should light up for 5 seconds when the button is pressed.
-4. In arduino code, change the reply of the arduino: The device should respond with a number (0, 1, or 2) that corresponds to a specific state:
+4. Update the arduino code: The device should send a number (0, 1, or 2) that corresponds to a specific state:
     - '0': LED off
     - '1': button and LED on
     - '2': button off
