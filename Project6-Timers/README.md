@@ -10,7 +10,7 @@ Test the code and make sure it works as expected
 paste a screen shot from the logic analyzer below:
  
 ## update the code to add a delay in the loop function
-- Add a delay of 1 seconds in the loop function that simulates a long process. Does the LED still turn off after 5 seconds? Why or why not?
+- Add the same for loop as in the previous exercise to simulate a long process. Does the LED still turn off after 5 seconds? Why or why not?
 answer here: __________
 add a screen shot from the logic analyzer below:
 

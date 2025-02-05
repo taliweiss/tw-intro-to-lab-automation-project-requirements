@@ -14,8 +14,13 @@
 - use the Serial library to add debug statements to your code. View using Serial Monitor in Arduino IDE
 
 ## Simulate additional long process
-- Add a delay(1000) to your loop. The purpose of this delay is to simulate an additional long process in your system, such as data acquisition, a long measurement, etc.
-- add Serial statements before and after the delay
+- We wish to simulate a long process that happens in the loop. In your lab, this could be a calculation, data acquisition, etc. In order to simulate this, add to your loop the following code:
+
+```
+for (int i = 0; i< 10000; i++){
+    Serial.println("calculating...");
+}
+```
 - test if lighting led still works. Why or why not?
 answer here: __________
 
