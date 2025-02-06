@@ -7,7 +7,9 @@
 ## Instructions
 1. Install the firmataexpress package in the Arduino IDE. upload the firmataexpress sketch to the Arduino board.
 2. Install the [pymata4 package](https://mryslab.github.io/pymata4/install_pymata4/) in the python environment - pip install pymata4 
-3. follow along with our demo ...
+3. follow along with our demo or use the jupyter notebook.
+
+**IMPORTANT!** the pymata4 package sometimes causes crashes. The computers reset when booting and all your code will be lost in this case. Therefore, **commit and push often**.
 
 ## Requirements
 
