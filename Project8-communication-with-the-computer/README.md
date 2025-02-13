@@ -21,6 +21,19 @@ This number is the time in milliseconds that the LED on the device should light 
 8. The sketch should include comments explaining the functionality of each part of the code.
 9. The sketch should be written in a clean code following good programming practices.
 
+## Python environments
+Before using Python, set up the environment. In the course we use Conda, another option is to use `.venv`.
+To set up conda using the Anaconda Prompt:
+```
+conda config --set ssl_verify false
+conda create --name intro python=3.11
+conda activate intro
+```
+And after that you can install packages using 
+`pip install <package-name>`
+
+In VSCode, chosse the interpreter in `intro` environment of folder.
+
 **Requirements: Python side**
 
 1. Develop a Python script that communicates with a device (like an Arduino) via a serial port.
