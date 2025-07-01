@@ -37,7 +37,7 @@ In VSCode, chosse the interpreter in `intro` environment of folder.
 **Requirements: Python side**
 
 1. Develop a Python script that communicates with a device (like an Arduino) via a serial port.
-2. The script should have a GUI (Graphical User Interface) using PySimpleGUI library. The GUI should have a response area to display messages.
+2. The script should have a GUI (Graphical User Interface) using freesimplegui library. The GUI should have a response area to display messages.
 3. The script should be able to send a number over the serial port to the device. This number will be the time in milliseconds that the LED on the device should light up when a button is pressed. (add newline if necessary)
     - For example, if the user enters '5000' in the GUI, the LED on the device should light up for 5 seconds when the button is pressed.
 4. Update the arduino code: The device should send a number (0, 1, or 2) that corresponds to a specific state:
@@ -45,7 +45,7 @@ In VSCode, chosse the interpreter in `intro` environment of folder.
     - '1': button and LED on
     - '2': button off
 5. The script should read the response from the device and update the GUI with the corresponding message.
-6. The script should continuously read from the serial port in parallel with the PySimpleGUI main loop.
+6. The script should continuously read from the serial port in parallel with the freesimplegui main loop.
 7. The script should handle any exceptions or errors that might occur during the communication with the device.
 8. The script should include comments explaining the functionality of each part of the code.
 9. The script should be written in a clean, organized, and efficient manner following good programming practices.
