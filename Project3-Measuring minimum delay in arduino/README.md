@@ -25,17 +25,19 @@
  - play with the scopy parameters until you can see the separate blinks. Which parameter(s) do you need to change?
  - use cursors and sample rate to measure the pulse width
  - take screenshots and add them to the README below.
+![alt text](Capture.PNG)
 
 ## Measure overhead
  - Remove the delay statements and upload the code
- - Measure pulse width. What is the minimum time that the signal is HIGH and LOW? this is the overhead.
+ - Measure pulse width. What is the minimum time that the signal is HIGH and LOW? this is the overhead.KSPS ON 3.4 us, 3.9 US
  - Take screenshots and add them to the README below.
- 
+ ![alt text](Capture2.PNG)
 
 ## even shorter blink
 - delay() is limited to 1 ms. Find a function that delays 1 microsecond. 
- - Try different delays and measure the overhead.
+ - Try different delays and measure the overhead. for example: delayMicroseconds(delaytime); 
  - Take screenshots and add them to the README below.
+ ![alt text](Capture3.PNG) 
 
 ## Git
  - Commit the new README with your screenshots

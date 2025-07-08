@@ -22,20 +22,33 @@
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 */
 
-int Pin=4;
-int delaytime = 50; // FLOAT DOUBLE
+int delaytime = 1; // FLOAT DOUBLE
+int Pin12 = 12;
 int Pin13 = 13;
+int counter=0;
 
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
-  pinMode(Pin, OUTPUT);
+  pinMode(Pin12, OUTPUT);
+  pinMode(Pin13, OUTPUT);
 }
+
+void setup() {
+  DDRB |= (1 << PB4) | (1 << PB5); // Set pins 12 (PB4) and 13 (PB5) as outputs
+}
+
+// 2 places in memory, configuration and
+// DDRB place in memory;
+// different memory: Input 11001111
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(Pin, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delayMicroseconds(delaytime);                      // wait for a second
-  digitalWrite(Pin, LOW);   // turn the LED off by making the voltage LOW
-  delayMicroseconds(delaytime);                      // wait for a second
+  digitalWrite(Pin12, HIGH);  // turn the LED on (HIGH is the voltage level)
+  digitalWrite(Pin13, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(delaytime);                      // wait for a second
+  counter=counter+1;
+  digitalWrite(Pin12, LOW);   // turn the LED off by making the voltage LOW
+  digitalWrite(Pin13, LOW);   // turn the LED off by making the voltage LOW
+  delay(delaytime);  
 }
