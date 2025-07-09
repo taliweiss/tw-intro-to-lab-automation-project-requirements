@@ -25,9 +25,7 @@ This number is the time in milliseconds that the LED on the device should light 
 Before using Python, set up the environment. In the course we use Conda, another option is to use `.venv`.
 To set up conda using the Anaconda Prompt:
 ```
-conda config --set ssl_verify false
-conda create --name intro python=3.11
-conda activate intro
+y
 ```
 And after that you can install packages using 
 `pip install <package-name>`

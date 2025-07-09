@@ -1,5 +1,9 @@
 # Project7 - Analog!
 
+The Arduino Uno has only 6 hardware PWM pins
+Pins with PWM on Uno: 3, 5, 6, 9, 10, 11
+If you try to use standard PWM on pin 4 using analogWrite(4, value), it will compile, but it won’t output a real PWM signal — just a constant HIGH or LOW.
+
 1. Understand the difference between analog and digital signals
 1. Learn to use a voltmeter and scope
 1. Measure analog signals
@@ -18,15 +22,17 @@ The purpose of this project is to dim and increase the led light using the rotar
 - Using the rotary value, update the PWM value. Note the range of values that can be used according to package documentation. Change your code accordingly.
 - test your code.
 - View in scope: Connect Analog 2 (dark blue) to pin 4 in arduino (LED output). Play with the times and triggers until you see the PWM change when turning the rotary.
-- View in voltmeter - stop scope first. See the average voltage change. What is the duty cycle?
-- what happens when using 30Hz instead of 50Hz for the PWM?
+- View in voltmeter - stop scope first. See the average voltage change. What is the duty cycle? 255/4 
+- what happens when using 30Hz instead of 50Hz for the PWM? change time base
+    
+
 
 ## Use PWM to control a servo motor
 
 - connect analog 2 in adalm (dark blue) to digital 7 in arduino
 - install Servo package if not already installed
 - initialize Servo package with pin 7
-- first check in adalm the range of the mapped values. What frequency is the Servo package using?
+- first check in adalm the range of the mapped values. What frequency is the Servo package using? 50 hz 
 - connect to servo using D7 breakout (ground on the left on the side of the led). connect plus to servo
 - turn rotary to turn the servo
 - How does the range of the servo motor compare to the range of the rotary? Use the scope.
