@@ -36,7 +36,7 @@ void loop() {
     String input = Serial.readStringUntil('\n'); // Read input from serial
     input.trim();                                // Clean up input
 
-    unsigned long newInterval = input.toInt();   // Convert to number
+    unsigned long newInterval = input.toInt();   // Convert to number; Range: –2,147,483,648 to 2,147,483,647
     if (newInterval > 0) {
       toggleInterval = newInterval;
       MsTimer2::set(toggleInterval, turn_off);
